@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', 'Sans Serif';
+    font-size: 18px;
+    background-color: #EDEAEA;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    background-color: #58359D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#MenuNav {
+    display: flex;
+    gap: 40px;
+
+}
+
+#MenuNav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+    transition: 0.3s;
+}
+
+#MenuNav li a:hover {
+    font-weight: bold;
+    color: #F1D335;
+    border-bottom: 2px solid #F1D335;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    padding: 45px 30px;
+    margin: auto;
+    width: 40%;
+}
+
+
+
+.subSection {
+    background-color: #810ae92e;
+}
+
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h2,
+h4 {
+    color: #3c2642;
+}
+
+h1,
+h3 {
+    color: #58359D;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+.titulos,
+.apresentacao {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+.fotoPerfil {
+    width: 200px;
+    border: 5px solid #58359D;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.fotoPerfil:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+section ul {
+    max-width: 760px;
+    margin: auto;
+    text-align: justify;
+
+}
+
+section ul li {
+    margin-top: 15px;
+}
+
+footer {
+    padding: 10px 30px;
+    background-color: #58359D;
+    color: #fff;
+}
+
+footer a {
+    color: #EDEAEA;
+}
